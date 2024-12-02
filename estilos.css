@@ -1,0 +1,59 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+
+
+.tarjeta{
+    width: 700px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.2);
+    
+}
+
+/* 50 y 50 para imagen y contenido */
+.imagen, .contenido{
+    flex: 1;
+    padding: 10px;
+}
+
+.imagen img{
+    max-width: 80%;
+    max-height: 80%;
+    height: auto;
+    display: block;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 576px){
+    .tarjeta{
+        flex-direction: column;
+        width: 300px;
+        height: 600px;
+    }
+    
+}
