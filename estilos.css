@@ -36,10 +36,13 @@ body{
 }
 
 .imagen img{
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 70%;
+    max-height: 70%;
     height: auto;
     display: block;
+
+    border-radius: 130px;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.2);
 }
 
 .imagen{
@@ -54,9 +57,19 @@ body{
     flex-direction: row;
     width: 100%;
     justify-content: space-between; 
+    align-items: center;
 
 }
 
+
+.contenido{
+    font-family:'Arial', sans-serif;
+    h2{
+        margin-top: 10px;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+}
 
 
 
@@ -85,6 +98,13 @@ button:hover{
     background-color: #2563eb;
 }
 
+.bi-facebook{
+    color: #3A86FF;
+}
+.bi-facebook, .bi-envelope, .bi-telephone-fill{
+    margin-right: 10px;
+}
+
 
 
 
@@ -96,6 +116,14 @@ button:hover{
         flex-direction: column;
         width: 300px;
         height: 600px;
+    }
+    .fila-superior{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen img{
+        max-width: 80%;
     }
     
 }
