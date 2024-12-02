@@ -21,10 +21,10 @@ body{
     height: 400px;
     background-color: white;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    
+
     box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.2);
     
 }
@@ -47,6 +47,48 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
+.fila-superior{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between; 
+
+}
+
+
+
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-bottom: 20px; */
+}
+
+
+button{
+    background-color: #3A86FF;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 149px;
+    height: 49px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #2563eb;
+}
+
+
+
+
+
 
 
 @media screen and (max-width: 576px){
