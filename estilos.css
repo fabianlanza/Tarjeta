@@ -122,6 +122,18 @@ button:hover{
 }
 
 
+/* .footer{
+    background-color: #3A86FF;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 14px;
+    border-top: 1px solid #2563eb;
+    margin-top: 80px; 
+} */
+
+
 
 @media screen and (max-width: 576px){
     .tarjeta{
