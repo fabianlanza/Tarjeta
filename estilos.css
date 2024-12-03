@@ -154,8 +154,8 @@ button:hover{
 @media screen and (max-width: 576px){
     .tarjeta{
         flex-direction: column;
-        width: 300px;
-        height: 600px;
+        width: 350px;
+        height: 650px;
     }
     .fila-superior{
         flex-direction: column;
@@ -165,5 +165,6 @@ button:hover{
     .imagen img{
         max-width: 80%;
     }
+
     
 }
